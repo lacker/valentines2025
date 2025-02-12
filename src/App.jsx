@@ -42,10 +42,8 @@ function App() {
       });
     }, 5000);
 
-    // Show first hint immediately
-    if (visibleHints.length === 0) {
-      setVisibleHints([problem.hints[0]]);
-    }
+    // Remove the immediate first hint display
+    // The first hint will now show after 5 seconds like the others
 
     return () => clearInterval(timer);
   }, [visibleHints.length]);

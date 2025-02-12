@@ -1,11 +1,11 @@
 export const problems = [
   {
     "word": "freedom",
-    "hints": ["human right", "usa", "not oppression", "revolutionary"]
+    "hints": ["liberty", "rights", "chains", "escape"]
   },
   {
     "word": "harmony",
-    "hints": ["musical", "peaceful state", "together", "balance"]
+    "hints": ["peace", "balance", "music", "unity"]
   },
   {
     "word": "present",
@@ -13,15 +13,15 @@ export const problems = [
   },
   {
     "word": "dolphin",
-    "hints": ["mammal", "swimmer", "clicks and squeaks", "flipper"]
+    "hints": ["mammal", "ocean", "flippers", "smart"]
   },
   {
     "word": "rainbow",
-    "hints": ["flag", "colors", "arch in sky", "pot of gold"]
+    "hints": ["colors", "arch", "prism", "storm"]
   },
   {
     "word": "diamond",
-    "hints": ["precious gem", "engagement", "stone", "sparkles"]
+    "hints": ["gem", "ring", "sparkle", "forever"]
   },
   {
     "word": "channel",
@@ -29,15 +29,15 @@ export const problems = [
   },
   {
     "word": "thunder",
-    "hints": ["storm sound", "lightning", "boom", "rumble"]
+    "hints": ["storm", "loud", "lightning", "boom"]
   },
   {
     "word": "whisper",
-    "hints": ["quiet", "soft", "secret", "sound"]
+    "hints": ["quiet", "secret", "soft", "hush"]
   },
   {
     "word": "blossom",
-    "hints": ["flower", "spring", "cherry", "petal"]
+    "hints": ["flower", "spring", "bloom", "pink"]
   },
   {
     "word": "penguin",
@@ -61,14 +61,126 @@ export const problems = [
   },
   {
     "word": "mystery",
-    "hints": ["puzzle", "unknown", "detective", "secret story"]
+    "hints": ["puzzle", "secret", "clues", "unknown"]
   },
   {
     "word": "sunrise",
-    "hints": ["dawn", "new day", "morning", "eastern sky"]
+    "hints": ["dawn", "morning", "east", "begin"]
   },
   {
     "word": "journey",
-    "hints": ["adventure", "travel path", "life's road", "expedition"]
+    "hints": ["travel", "path", "quest", "voyage"]
+  },
+  {
+    "word": "comfort",
+    "hints": ["cozy", "relax", "warm", "peace"]
+  },
+  {
+    "word": "wisdom",
+    "hints": ["sage", "smart", "knowledge", "elder"]
+  },
+  {
+    "word": "sparkle",
+    "hints": ["shine", "glitter", "twinkle", "bright"]
+  },
+  {
+    "word": "breeze",
+    "hints": ["wind", "gentle", "cool", "fresh"]
+  },
+  {
+    "word": "rhythm",
+    "hints": ["beat", "music", "tempo", "dance"]
+  },
+  {
+    "word": "phoenix",
+    "hints": ["fire", "bird", "rebirth", "rise"]
+  },
+  {
+    "word": "eclipse",
+    "hints": ["moon", "shadow", "dark", "sun"]
+  },
+  {
+    "word": "whistle",
+    "hints": ["tune", "signal", "blow", "sound"]
+  },
+  {
+    "word": "glacier",
+    "hints": ["ice", "cold", "arctic", "slow"]
+  },
+  {
+    "word": "volcano",
+    "hints": ["lava", "erupt", "mountain", "hot"]
+  },
+  {
+    "word": "octopus",
+    "hints": ["tentacles", "ink", "sea", "smart"]
+  },
+  {
+    "word": "weather",
+    "hints": ["rain", "forecast", "climate", "sky"]
+  },
+  {
+    "word": "library",
+    "hints": ["books", "quiet", "reading", "study"]
+  },
+  {
+    "word": "monster",
+    "hints": ["scary", "creature", "beast", "fear"]
+  },
+  {
+    "word": "captain",
+    "hints": ["leader", "ship", "command", "crew"]
+  },
+  {
+    "word": "fantasy",
+    "hints": ["magic", "dream", "unreal", "fairy"]
+  },
+  {
+    "word": "concert",
+    "hints": ["music", "stage", "crowd", "band"]
+  },
+  {
+    "word": "balloon",
+    "hints": ["float", "air", "party", "pop"]
+  },
+  {
+    "word": "sandbox",
+    "hints": ["play", "beach", "castle", "toys"]
+  },
+  {
+    "word": "picture",
+    "hints": ["photo", "image", "frame", "snap"]
+  },
+  {
+    "word": "kitchen",
+    "hints": ["cook", "food", "stove", "chef"]
+  },
+  {
+    "word": "morning",
+    "hints": ["dawn", "early", "sunrise", "wake"]
+  },
+  {
+    "word": "warrior",
+    "hints": ["fight", "brave", "battle", "hero"]
+  },
+  {
+    "word": "penguin",
+    "hints": ["bird", "ice", "waddle", "swim"]
+  },
+  {
+    "word": "harvest",
+    "hints": ["crop", "farm", "autumn", "reap"]
+  },
+  {
+    "word": "dolphin",
+    "hints": ["mammal", "ocean", "flippers", "smart"]
+  },
+  {
+    "word": "rainbow",
+    "hints": ["colors", "arch", "prism", "storm"]
+  },
+  {
+    "word": "diamond",
+    "hints": ["gem", "ring", "sparkle", "forever"]
   }
 ]; 

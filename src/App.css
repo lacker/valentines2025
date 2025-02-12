@@ -61,8 +61,9 @@ body {
 
 .hints-container {
   @apply flex flex-col items-center gap-2 my-4 p-2 mx-auto;
-  min-height: 12rem;
-  width: min(26rem, 95vw); /* Match solution bar width */
+  height: 12rem;
+  width: min(26rem, 95vw);
+  overflow: hidden;
 }
 
 .hint-item {
@@ -90,4 +91,26 @@ body {
 
 .animate-fade-in {
   animation: fade-in 0.5s ease-out forwards;
+}
+
+.success-emoji {
+  @apply flex items-center justify-center text-7xl;
+  height: 100%;
+  width: 100%;
+  animation: boing 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes boing {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }

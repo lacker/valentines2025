@@ -48,13 +48,17 @@ function App() {
   const [shuffledHints, setShuffledHints] = useState(() => 
     [...currentProblem.hints].sort(() => Math.random() - 0.5)
   );
+  const [showSuccess, setShowSuccess] = useState(false);
 
   // Check for correct word after each letter selection
   useEffect(() => {
     if (selectedLetters.length === currentProblem.word.length && 
         selectedLetters.join('').toLowerCase() === currentProblem.word.toLowerCase()) {
-      // Wait a moment to show the completed word before resetting
-      setTimeout(resetWithNewProblem, 1000);
+      setShowSuccess(true);
+      setTimeout(() => {
+        setShowSuccess(false);
+        resetWithNewProblem();
+      }, 1000);
     }
   }, [selectedLetters, currentProblem.word]);
 
@@ -122,11 +126,17 @@ function App() {
     <>
       <h1>Cluegram</h1>
       <div className="hints-container">
-        {hintSlots.map((hint, index) => (
-          <div key={index} className={`hint-item ${hint ? 'visible' : 'invisible'}`}>
-            {hint || 'placeholder'}
+        {showSuccess ? (
+          <div className="success-emoji">
+            🎉
           </div>
-        ))}
+        ) : (
+          hintSlots.map((hint, index) => (
+            <div key={index} className={`hint-item ${hint ? 'visible' : 'invisible'}`}>
+              {hint || 'placeholder'}
+            </div>
+          ))
+        )}
       </div>
       <div className="solution-bar">
         {selectedLetters.map((letter, index) => (

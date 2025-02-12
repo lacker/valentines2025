@@ -20,6 +20,10 @@ export const problems = [
     "hints": ["float", "air", "party", "pop"]
   },
   {
+    "word": "banking",
+    "hints": ["money", "save", "vault", "cash"]
+  },
+  {
     "word": "banquet",
     "hints": ["feast", "dinner", "formal", "meal"]
   },
@@ -50,6 +54,10 @@ export const problems = [
   {
     "word": "comfort",
     "hints": ["cozy", "relax", "warm", "peace"]
+  },
+  {
+    "word": "cooking",
+    "hints": ["food", "chef", "kitchen", "meal"]
   },
   {
     "word": "camping",
@@ -92,6 +100,10 @@ export const problems = [
     "hints": ["magic", "dream", "unreal", "fairy"]
   },
   {
+    "word": "farming",
+    "hints": ["crops", "land", "grow", "soil"]
+  },
+  {
     "word": "fashion",
     "hints": ["style", "clothes", "trend", "design"]
   },
@@ -108,8 +120,16 @@ export const problems = [
     "hints": ["liberty", "rights", "chains", "escape"]
   },
   {
+    "word": "friends",
+    "hints": ["pals", "buddy", "social", "close"]
+  },
+  {
     "word": "glacier",
     "hints": ["ice", "cold", "arctic", "slow"]
+  },
+  {
+    "word": "growing",
+    "hints": ["plant", "taller", "expand", "rise"]
   },
   {
     "word": "harmony",
@@ -128,8 +148,16 @@ export const problems = [
     "hints": ["cook", "food", "stove", "chef"]
   },
   {
+    "word": "knitting",
+    "hints": ["yarn", "wool", "craft", "needle"]
+  },
+  {
     "word": "lantern",
     "hints": ["light", "glow", "lamp", "dark"]
+  },
+  {
+    "word": "laughing",
+    "hints": ["happy", "funny", "smile", "joy"]
   },
   {
     "word": "leather",
@@ -152,6 +180,14 @@ export const problems = [
     "hints": ["dawn", "early", "sunrise", "wake"]
   },
   {
+    "word": "mansion",
+    "hints": ["house", "luxury", "estate", "grand"]
+  },
+  {
+    "word": "meeting",
+    "hints": ["group", "talk", "gather", "discuss"]
+  },
+  {
     "word": "musical",
     "hints": ["song", "show", "stage", "dance"]
   },
@@ -162,6 +198,10 @@ export const problems = [
   {
     "word": "natural",
     "hints": ["default", "pure", "organic", "wild"]
+  },
+  {
+    "word": "napping",
+    "hints": ["sleep", "rest", "doze", "snooze"]
   },
   {
     "word": "network",
@@ -200,8 +240,8 @@ export const problems = [
     "hints": ["tuxedo", "arctic", "waddle", "iceberg"]
   },
   {
-    "word": "phoenix",
-    "hints": ["fire", "bird", "rebirth", "rise"]
+    "word": "perfect",
+    "hints": ["flawless", "best", "ideal", "pure"]
   },
   {
     "word": "pioneer",
@@ -228,8 +268,20 @@ export const problems = [
     "hints": ["fun", "games", "sport", "active"]
   },
   {
+    "word": "pottery",
+    "hints": ["clay", "craft", "vase", "wheel"]
+  },
+  {
+    "word": "prayers",
+    "hints": ["wish", "hope", "faith", "ask"]
+  },
+  {
     "word": "present",
     "hints": ["boxed", "right now", "current time", "birthday"]
+  },
+  {
+    "word": "promise",
+    "hints": ["vow", "pledge", "swear", "word"]
   },
   {
     "word": "pudding",
@@ -264,12 +316,20 @@ export const problems = [
     "hints": ["storm", "loud", "lightning", "boom"]
   },
   {
+    "word": "teacher",
+    "hints": ["school", "learn", "class", "mentor"]
+  },
+  {
     "word": "tickles",
     "hints": ["laugh", "touch", "giggle", "fun"]
   },
   {
     "word": "tornado",
     "hints": ["wind", "storm", "funnel", "spin"]
+  },
+  {
+    "word": "traffic",
+    "hints": ["cars", "road", "busy", "jam"]
   },
   {
     "word": "trumpet",
@@ -296,6 +356,10 @@ export const problems = [
     "hints": ["rain", "forecast", "climate", "sky"]
   },
   {
+    "word": "walking",
+    "hints": ["steps", "move", "stroll", "path"]
+  },
+  {
     "word": "whisper",
     "hints": ["quiet", "secret", "soft", "hush"]
   },
@@ -306,6 +370,10 @@ export const problems = [
   {
     "word": "windows",
     "hints": ["glass", "view", "frame", "pane"]
+  },
+  {
+    "word": "winning",
+    "hints": ["victory", "success", "first", "gold"]
   },
   {
     "word": "winters",
@@ -322,6 +390,70 @@ export const problems = [
   {
     "word": "writing",
     "hints": ["pen", "words", "story", "author"]
+  },
+  {
+    "word": "younger",
+    "hints": ["youth", "age", "junior", "fresh"]
+  },
+  {
+    "word": "message",
+    "hints": ["text", "note", "letter", "word"]
+  },
+  {
+    "word": "wishing",
+    "hints": ["hope", "dream", "want", "star"]
+  },
+  {
+    "word": "feeling",
+    "hints": ["emotion", "sense", "touch", "heart"]
+  },
+  {
+    "word": "monkey",
+    "hints": ["ape", "banana", "tree", "swing"]
+  },
+  {
+    "word": "theatre",
+    "hints": ["stage", "play", "drama", "show"]
+  },
+  {
+    "word": "private",
+    "hints": ["secret", "personal", "hidden", "own"]
+  },
+  {
+    "word": "working",
+    "hints": ["job", "task", "labor", "busy"]
+  },
+  {
+    "word": "dancing",
+    "hints": ["moves", "rhythm", "music", "steps"]
+  },
+  {
+    "word": "drawing",
+    "hints": ["sketch", "art", "pencil", "paint"]
+  },
+  {
+    "word": "reading",
+    "hints": ["book", "story", "learn", "words"]
+  },
+  {
+    "word": "running",
+    "hints": ["fast", "race", "speed", "jog"]
+  },
+  {
+    "word": "sailing",
+    "hints": ["boat", "ocean", "wind", "yacht"]
+  },
+  {
+    "word": "singing",
+    "hints": ["voice", "song", "tune", "melody"]
+  },
+  {
+    "word": "student",
+    "hints": ["learn", "school", "study", "pupil"]
+  },
+  {
+    "word": "surfing",
+    "hints": ["waves", "beach", "board", "ocean"]
   }
 ];
 

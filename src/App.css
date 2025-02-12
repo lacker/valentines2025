@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  @apply bg-red-100 border-2 border-red-500 rounded-lg shadow-md;
+  padding: 2em;
+}

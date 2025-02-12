@@ -1,17 +1,7 @@
 import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import './App.css'
-
-const problems = [
-  {
-    "word": "freedom",
-    "hints": ["human right", "usa", "not oppression", "revolutionary"]
-  },
-  {
-    "word": "harmony",
-    "hints": ["musical", "peaceful state", "working together", "balance"]
-  }
-];
+import { problems } from './problems.js'
 
 const CELEBRATION_EMOJIS = [
   "🎉", "🎊", "✨", "🌟", "⭐", 

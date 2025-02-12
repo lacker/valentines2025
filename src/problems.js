@@ -1,5 +1,9 @@
 export const problems = [
   {
+    "word": "achieve",
+    "hints": ["accomplish", "succeed", "reach", "attain"]
+  },
+  {
     "word": "airport",
     "hints": ["planes", "travel", "terminal", "flight"]
   },
@@ -12,8 +16,8 @@ export const problems = [
     "hints": ["space", "rock", "meteor", "star"]
   },
   {
-    "word": "autumn",
-    "hints": ["fall", "leaves", "season", "harvest"]
+    "word": "balance",
+    "hints": ["equal", "steady", "scale", "harmony"]
   },
   {
     "word": "balloon",
@@ -38,6 +42,10 @@ export const problems = [
   {
     "word": "blossom",
     "hints": ["flower", "spring", "bloom", "pink"]
+  },
+  {
+    "word": "breathe",
+    "hints": ["inhale", "oxygen", "lungs", "air"]
   },
   {
     "word": "camping",
@@ -96,12 +104,20 @@ export const problems = [
     "hints": ["sketch", "art", "pencil", "paint"]
   },
   {
+    "word": "dynamic",
+    "hints": ["active", "moving", "energy", "changing"]
+  },
+  {
     "word": "eclipse",
     "hints": ["moon", "shadow", "dark", "sun"]
   },
   {
     "word": "emerald",
     "hints": ["green", "gem", "jewel", "stone"]
+  },
+  {
+    "word": "explore",
+    "hints": ["discover", "search", "venture", "seek"]
   },
   {
     "word": "fantasy",
@@ -152,6 +168,10 @@ export const problems = [
     "hints": ["crop", "farm", "autumn", "reap"]
   },
   {
+    "word": "imagine",
+    "hints": ["dream", "create", "think", "vision"]
+  },
+  {
     "word": "journey",
     "hints": ["travel", "path", "quest", "voyage"]
   },
@@ -160,16 +180,8 @@ export const problems = [
     "hints": ["cook", "food", "stove", "chef"]
   },
   {
-    "word": "knitting",
-    "hints": ["yarn", "wool", "craft", "needle"]
-  },
-  {
     "word": "lantern",
     "hints": ["light", "glow", "lamp", "dark"]
-  },
-  {
-    "word": "laughing",
-    "hints": ["happy", "funny", "smile", "joy"]
   },
   {
     "word": "leather",
@@ -196,7 +208,11 @@ export const problems = [
     "hints": ["text", "note", "letter", "word"]
   },
   {
-    "word": "monkey",
+    "word": "miracle",
+    "hints": ["wonder", "amazing", "divine", "special"]
+  },
+  {
+    "word": "monkeys",
     "hints": ["ape", "banana", "tree", "swing"]
   },
   {
@@ -240,10 +256,6 @@ export const problems = [
     "hints": ["box", "mail", "deliver", "wrap"]
   },
   {
-    "word": "painting",
-    "hints": ["art", "brush", "canvas", "colors"]
-  },
-  {
     "word": "parking",
     "hints": ["car", "spot", "garage", "space"]
   },
@@ -272,7 +284,7 @@ export const problems = [
     "hints": ["first", "explore", "settle", "lead"]
   },
   {
-    "word": "pirate",
+    "word": "pirates",
     "hints": ["ship", "treasure", "sword", "sea"]
   },
   {
@@ -312,6 +324,10 @@ export const problems = [
     "hints": ["sweet", "dessert", "creamy", "treat"]
   },
   {
+    "word": "purpose",
+    "hints": ["goal", "reason", "intent", "mission"]
+  },
+  {
     "word": "rainbow",
     "hints": ["colors", "arch", "prism", "storm"]
   },
@@ -332,6 +348,10 @@ export const problems = [
     "hints": ["play", "beach", "castle", "toys"]
   },
   {
+    "word": "science",
+    "hints": ["research", "study", "facts", "lab"]
+  },
+  {
     "word": "silence",
     "hints": ["quietness", "meditation", "peaceful state", "no sound"]
   },
@@ -346,6 +366,10 @@ export const problems = [
   {
     "word": "student",
     "hints": ["learn", "school", "study", "pupil"]
+  },
+  {
+    "word": "success",
+    "hints": ["achieve", "victory", "triumph", "win"]
   },
   {
     "word": "sunbeam",
@@ -366,6 +390,10 @@ export const problems = [
   {
     "word": "theatre",
     "hints": ["stage", "play", "drama", "show"]
+  },
+  {
+    "word": "thought",
+    "hints": ["idea", "mind", "think", "ponder"]
   },
   {
     "word": "thunder",
@@ -436,8 +464,8 @@ export const problems = [
     "hints": ["hope", "dream", "want", "star"]
   },
   {
-    "word": "wisdom",
-    "hints": ["sage", "knowledge", "smart", "wise"]
+    "word": "wonders",
+    "hints": ["marvel", "amaze", "curious", "awe"]
   },
   {
     "word": "working",

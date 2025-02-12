@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import PropTypes from 'prop-types'
 import './App.css'
 
 // Move problem to be used within the App component
@@ -22,8 +23,14 @@ function LetterSquare({ letter, onClick, disabled }) {
   );
 }
 
+LetterSquare.propTypes = {
+  letter: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
+  disabled: PropTypes.bool.isRequired
+};
+
 function App() {
-  const [shuffledLetters, setShuffledLetters] = useState(() => shuffleWord(problem.word));
+  const [shuffledLetters] = useState(() => shuffleWord(problem.word));
   const [selectedLetters, setSelectedLetters] = useState([]);
   const [usedIndices, setUsedIndices] = useState(new Set());
   const [visibleHints, setVisibleHints] = useState([]);

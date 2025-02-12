@@ -11,3 +11,13 @@
   @apply bg-red-100 border-2 border-red-500 rounded-lg shadow-md;
   padding: 2em;
 }
+
+.letters-container {
+  @apply flex justify-center gap-2 my-4;
+}
+
+.letter-square {
+  @apply w-12 h-12 bg-white border-2 border-gray-300 rounded-lg
+         flex items-center justify-center text-xl font-bold
+         uppercase shadow-md;
+}

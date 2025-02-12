@@ -1,5 +1,9 @@
 export const problems = [
   {
+    "word": "airport",
+    "hints": ["planes", "travel", "terminal", "flight"]
+  },
+  {
     "word": "balloon",
     "hints": ["float", "air", "party", "pop"]
   },
@@ -24,6 +28,10 @@ export const problems = [
     "hints": ["music", "stage", "crowd", "band"]
   },
   {
+    "word": "cottage",
+    "hints": ["house", "cozy", "small", "home"]
+  },
+  {
     "word": "courage",
     "hints": ["bravery", "face fears", "heroic", "inner strength"]
   },
@@ -42,6 +50,10 @@ export const problems = [
   {
     "word": "eclipse",
     "hints": ["moon", "shadow", "dark", "sun"]
+  },
+  {
+    "word": "emerald",
+    "hints": ["green", "gem", "jewel", "stone"]
   },
   {
     "word": "fantasy",
@@ -72,6 +84,10 @@ export const problems = [
     "hints": ["cook", "food", "stove", "chef"]
   },
   {
+    "word": "lantern",
+    "hints": ["light", "glow", "lamp", "dark"]
+  },
+  {
     "word": "library",
     "hints": ["books", "quiet", "reading", "study"]
   },
@@ -90,6 +106,10 @@ export const problems = [
   {
     "word": "octopus",
     "hints": ["tentacles", "ink", "sea", "smart"]
+  },
+  {
+    "word": "orchard",
+    "hints": ["trees", "fruit", "apples", "garden"]
   },
   {
     "word": "passion",
@@ -128,12 +148,24 @@ export const problems = [
     "hints": ["shine", "glitter", "twinkle", "bright"]
   },
   {
+    "word": "sunbeam",
+    "hints": ["light", "ray", "bright", "warm"]
+  },
+  {
     "word": "sunrise",
     "hints": ["dawn", "morning", "east", "begin"]
   },
   {
     "word": "thunder",
     "hints": ["storm", "loud", "lightning", "boom"]
+  },
+  {
+    "word": "tornado",
+    "hints": ["wind", "storm", "funnel", "spin"]
+  },
+  {
+    "word": "vampire",
+    "hints": ["blood", "fangs", "night", "bat"]
   },
   {
     "word": "volcano",
@@ -154,7 +186,7 @@ export const problems = [
   {
     "word": "whistle",
     "hints": ["tune", "signal", "blow", "sound"]
-  },
+  }
 ];
 
 // Check for duplicate words at load time

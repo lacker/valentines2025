@@ -2,11 +2,16 @@ import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import './App.css'
 
-// Move problem to be used within the App component
-const problem = {
-  "word": "freedom",
-  "hints": ["human right", "usa", "not oppression", "revolutionary"]
-}
+const problems = [
+  {
+    "word": "freedom",
+    "hints": ["human right", "usa", "not oppression", "revolutionary"]
+  },
+  {
+    "word": "harmony",
+    "hints": ["musical", "peaceful state", "working together", "balance"]
+  }
+];
 
 function shuffleWord(word) {
   return word.split('').sort(() => Math.random() - 0.5);
@@ -30,27 +35,32 @@ LetterSquare.propTypes = {
 };
 
 function App() {
-  const [shuffledLetters] = useState(() => shuffleWord(problem.word));
+  // Pick a random problem on mount
+  const [currentProblem] = useState(() => 
+    problems[Math.floor(Math.random() * problems.length)]
+  );
+  
+  const [shuffledLetters] = useState(() => shuffleWord(currentProblem.word));
   const [selectedLetters, setSelectedLetters] = useState([]);
   const [usedIndices, setUsedIndices] = useState(new Set());
   const [visibleHints, setVisibleHints] = useState([]);
 
   // Create shuffled hints array on component mount
   const [shuffledHints] = useState(() => 
-    [...problem.hints].sort(() => Math.random() - 0.5)
+    [...currentProblem.hints].sort(() => Math.random() - 0.5)
   );
 
   useEffect(() => {
     // Don't set up timer if we've shown all hints
-    if (visibleHints.length >= problem.hints.length) return;
+    if (visibleHints.length >= currentProblem.hints.length) return;
 
     const timer = setInterval(() => {
       setVisibleHints(prev => {
-        if (prev.length >= problem.hints.length) {
+        if (prev.length >= currentProblem.hints.length) {
           clearInterval(timer);
           return prev;
         }
-        // Use shuffledHints instead of problem.hints
+        // Use shuffledHints instead of currentProblem.hints
         return [...prev, shuffledHints[prev.length]];
       });
     }, 5000);

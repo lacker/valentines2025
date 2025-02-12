@@ -9,9 +9,9 @@ body {
 #root {
   max-width: 100%;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0;
   text-align: center;
-  min-height: 85vh; /* Reduced from 95vh to avoid scroll bar */
+  min-height: 85vh;
   height: -webkit-fill-available;
   @apply flex flex-col justify-center;
   overflow: hidden;
@@ -27,28 +27,27 @@ body {
 }
 
 .solution-bar {
-  @apply flex justify-center gap-1 my-4 p-3 mx-auto
+  @apply flex justify-center gap-1 my-4 p-2 mx-auto
          border-2 border-gray-300 rounded-lg
          bg-gray-50;
   min-height: 4.5rem;
-  width: min(
-    22rem,
-    95vw
-  ); /* Use the smaller of 22rem or 95% of viewport width */
+  width: min(26rem, 95vw);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .solution-letter {
-  @apply w-10 h-10 bg-white border-2 border-blue-500 rounded-lg
-         flex items-center justify-center text-lg font-bold
+  @apply w-12 h-12 bg-white border-2 border-blue-500 rounded-lg
+         flex items-center justify-center text-xl font-bold
          uppercase shadow-md cursor-pointer
          hover:bg-blue-50 hover:shadow-lg
          transition-all duration-200;
-  flex: 0 0 2.5rem; /* Reduced from 3rem */
+  flex: 0 0 3rem; /* Increased from 2.5rem */
 }
 
 .letter-square {
-  @apply w-10 h-10 bg-white border-2 border-gray-300 rounded-lg
-         flex items-center justify-center text-lg font-bold
+  @apply w-12 h-12 bg-white border-2 border-gray-300 rounded-lg
+         flex items-center justify-center text-xl font-bold
          uppercase shadow-md cursor-pointer
          hover:border-blue-500 hover:shadow-lg
          transition-all duration-200;
@@ -61,9 +60,9 @@ body {
 }
 
 .hints-container {
-  @apply flex flex-col items-center gap-2 my-4 p-4 mx-auto;
+  @apply flex flex-col items-center gap-2 my-4 p-2 mx-auto;
   min-height: 12rem;
-  width: min(22rem, 95vw); /* Match solution bar width */
+  width: min(26rem, 95vw); /* Match solution bar width */
 }
 
 .hint-item {

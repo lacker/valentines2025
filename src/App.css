@@ -17,9 +17,11 @@
 }
 
 .solution-bar {
-  @apply flex justify-center gap-2 my-4 p-4 mx-auto max-w-md
-         border-2 border-gray-300 rounded-lg min-h-[4rem]
+  @apply flex justify-start gap-2 my-4 p-4 mx-auto
+         border-2 border-gray-300 rounded-lg
          bg-gray-50;
+  min-height: 5.5rem; /* Increased to 88px to prevent any vertical expansion */
+  width: 28rem; /* Fixed width: 7 letters (48px each) + 6 gaps (8px) + padding (32px) */
 }
 
 .solution-letter {
@@ -28,6 +30,7 @@
          uppercase shadow-md cursor-pointer
          hover:bg-blue-50 hover:shadow-lg
          transition-all duration-200;
+  flex: 0 0 3rem; /* Strict 48px width, no growing or shrinking */
 }
 
 .letter-square {

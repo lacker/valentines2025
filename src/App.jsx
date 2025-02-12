@@ -13,6 +13,11 @@ const problems = [
   }
 ];
 
+const CELEBRATION_EMOJIS = [
+  "🎉", "🎊", "✨", "🌟", "⭐", 
+  "😊", "🥳", "😄", "😎", "🤩"
+];
+
 function shuffleWord(word) {
   return word.split('').sort(() => Math.random() - 0.5);
 }
@@ -49,11 +54,15 @@ function App() {
     [...currentProblem.hints].sort(() => Math.random() - 0.5)
   );
   const [showSuccess, setShowSuccess] = useState(false);
+  const [successEmoji, setSuccessEmoji] = useState("🎉");
 
   // Check for correct word after each letter selection
   useEffect(() => {
     if (selectedLetters.length === currentProblem.word.length && 
         selectedLetters.join('').toLowerCase() === currentProblem.word.toLowerCase()) {
+      // Pick random emoji
+      const randomEmoji = CELEBRATION_EMOJIS[Math.floor(Math.random() * CELEBRATION_EMOJIS.length)];
+      setSuccessEmoji(randomEmoji);
       setShowSuccess(true);
       setTimeout(() => {
         setShowSuccess(false);
@@ -128,7 +137,7 @@ function App() {
       <div className="hints-container">
         {showSuccess ? (
           <div className="success-emoji">
-            🎉
+            {successEmoji}
           </div>
         ) : (
           hintSlots.map((hint, index) => (

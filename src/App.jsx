@@ -35,20 +35,38 @@ LetterSquare.propTypes = {
 };
 
 function App() {
-  // Pick a random problem on mount
-  const [currentProblem] = useState(() => 
+  const [currentProblem, setCurrentProblem] = useState(() => 
     problems[Math.floor(Math.random() * problems.length)]
   );
   
-  const [shuffledLetters] = useState(() => shuffleWord(currentProblem.word));
+  const [shuffledLetters, setShuffledLetters] = useState(() => 
+    shuffleWord(currentProblem.word)
+  );
   const [selectedLetters, setSelectedLetters] = useState([]);
   const [usedIndices, setUsedIndices] = useState(new Set());
   const [visibleHints, setVisibleHints] = useState([]);
-
-  // Create shuffled hints array on component mount
-  const [shuffledHints] = useState(() => 
+  const [shuffledHints, setShuffledHints] = useState(() => 
     [...currentProblem.hints].sort(() => Math.random() - 0.5)
   );
+
+  // Check for correct word after each letter selection
+  useEffect(() => {
+    if (selectedLetters.length === currentProblem.word.length && 
+        selectedLetters.join('').toLowerCase() === currentProblem.word.toLowerCase()) {
+      // Wait a moment to show the completed word before resetting
+      setTimeout(resetWithNewProblem, 1000);
+    }
+  }, [selectedLetters, currentProblem.word]);
+
+  const resetWithNewProblem = () => {
+    const newProblem = problems[Math.floor(Math.random() * problems.length)];
+    setCurrentProblem(newProblem);
+    setShuffledLetters(shuffleWord(newProblem.word));
+    setSelectedLetters([]);
+    setUsedIndices(new Set());
+    setVisibleHints([]);
+    setShuffledHints([...newProblem.hints].sort(() => Math.random() - 0.5));
+  };
 
   useEffect(() => {
     // Don't set up timer if we've shown all hints

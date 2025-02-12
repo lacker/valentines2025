@@ -43,3 +43,28 @@
          border-gray-200 bg-gray-100
          hover:border-gray-200 hover:shadow-md;
 }
+
+.hints-container {
+  @apply flex flex-col items-center gap-2 my-4 p-4 mx-auto max-w-md;
+}
+
+.hint-item {
+  @apply bg-yellow-50 border border-yellow-200 rounded-lg px-4 py-2
+         text-sm text-yellow-800 shadow-sm;
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}

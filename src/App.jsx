@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 
 // Move problem to be used within the App component
@@ -26,6 +26,29 @@ function App() {
   const [shuffledLetters, setShuffledLetters] = useState(() => shuffleWord(problem.word));
   const [selectedLetters, setSelectedLetters] = useState([]);
   const [usedIndices, setUsedIndices] = useState(new Set());
+  const [visibleHints, setVisibleHints] = useState([]);
+
+  useEffect(() => {
+    // Don't set up timer if we've shown all hints
+    if (visibleHints.length >= problem.hints.length) return;
+
+    const timer = setInterval(() => {
+      setVisibleHints(prev => {
+        if (prev.length >= problem.hints.length) {
+          clearInterval(timer);
+          return prev;
+        }
+        return [...prev, problem.hints[prev.length]];
+      });
+    }, 5000);
+
+    // Show first hint immediately
+    if (visibleHints.length === 0) {
+      setVisibleHints([problem.hints[0]]);
+    }
+
+    return () => clearInterval(timer);
+  }, [visibleHints.length]);
 
   const handleLetterClick = (letter, index) => {
     if (usedIndices.has(index)) return;
@@ -57,6 +80,13 @@ function App() {
   return (
     <>
       <h1>Cluegram</h1>
+      <div className="hints-container">
+        {visibleHints.map((hint, index) => (
+          <div key={index} className="hint-item">
+            {hint}
+          </div>
+        ))}
+      </div>
       <div className="solution-bar">
         {selectedLetters.map((letter, index) => (
           <div 

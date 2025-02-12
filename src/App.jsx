@@ -87,7 +87,7 @@ function App() {
     }, 5000);
 
     return () => clearInterval(timer);
-  }, [visibleHints.length, shuffledHints]);
+  }, [visibleHints.length, shuffledHints, currentProblem.hints.length]);
 
   const handleLetterClick = (letter, index) => {
     if (usedIndices.has(index)) return;

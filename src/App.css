@@ -13,29 +13,29 @@
 }
 
 .letters-container {
-  @apply flex justify-center gap-2 my-4;
+  @apply flex justify-center gap-1 my-4;
 }
 
 .solution-bar {
-  @apply flex justify-center gap-2 my-4 p-4 mx-auto
+  @apply flex justify-center gap-1 my-4 p-3 mx-auto
          border-2 border-gray-300 rounded-lg
          bg-gray-50;
-  min-height: 5.5rem; /* Increased to 88px to prevent any vertical expansion */
-  width: 28rem; /* Fixed width: 7 letters (48px each) + 6 gaps (8px) + padding (32px) */
+  min-height: 4.5rem; /* Slightly reduced */
+  width: 22rem; /* Reduced from 28rem to better fit mobile */
 }
 
 .solution-letter {
-  @apply w-12 h-12 bg-white border-2 border-blue-500 rounded-lg
-         flex items-center justify-center text-xl font-bold
+  @apply w-10 h-10 bg-white border-2 border-blue-500 rounded-lg
+         flex items-center justify-center text-lg font-bold
          uppercase shadow-md cursor-pointer
          hover:bg-blue-50 hover:shadow-lg
          transition-all duration-200;
-  flex: 0 0 3rem; /* Strict 48px width, no growing or shrinking */
+  flex: 0 0 2.5rem; /* Reduced from 3rem */
 }
 
 .letter-square {
-  @apply w-12 h-12 bg-white border-2 border-gray-300 rounded-lg
-         flex items-center justify-center text-xl font-bold
+  @apply w-10 h-10 bg-white border-2 border-gray-300 rounded-lg
+         flex items-center justify-center text-lg font-bold
          uppercase shadow-md cursor-pointer
          hover:border-blue-500 hover:shadow-lg
          transition-all duration-200;

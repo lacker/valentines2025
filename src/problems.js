@@ -12,8 +12,24 @@ export const problems = [
     "hints": ["space", "rock", "meteor", "star"]
   },
   {
+    "word": "autumn",
+    "hints": ["fall", "leaves", "season", "harvest"]
+  },
+  {
     "word": "balloon",
     "hints": ["float", "air", "party", "pop"]
+  },
+  {
+    "word": "banquet",
+    "hints": ["feast", "dinner", "formal", "meal"]
+  },
+  {
+    "word": "battery",
+    "hints": ["power", "charge", "energy", "cell"]
+  },
+  {
+    "word": "bedroom",
+    "hints": ["sleep", "rest", "pillow", "bed"]
   },
   {
     "word": "blossom",
@@ -34,6 +50,10 @@ export const problems = [
   {
     "word": "comfort",
     "hints": ["cozy", "relax", "warm", "peace"]
+  },
+  {
+    "word": "camping",
+    "hints": ["tent", "fire", "woods", "outdoor"]
   },
   {
     "word": "concert",
@@ -72,8 +92,16 @@ export const problems = [
     "hints": ["magic", "dream", "unreal", "fairy"]
   },
   {
+    "word": "fashion",
+    "hints": ["style", "clothes", "trend", "design"]
+  },
+  {
     "word": "fishing",
     "hints": ["catch", "lake", "rod", "bait"]
+  },
+  {
+    "word": "flowers",
+    "hints": ["bloom", "garden", "petals", "scent"]
   },
   {
     "word": "freedom",
@@ -104,6 +132,10 @@ export const problems = [
     "hints": ["light", "glow", "lamp", "dark"]
   },
   {
+    "word": "leather",
+    "hints": ["skin", "boots", "jacket", "cow"]
+  },
+  {
     "word": "library",
     "hints": ["books", "quiet", "reading", "study"]
   },
@@ -118,6 +150,10 @@ export const problems = [
   {
     "word": "morning",
     "hints": ["dawn", "early", "sunrise", "wake"]
+  },
+  {
+    "word": "musical",
+    "hints": ["song", "show", "stage", "dance"]
   },
   {
     "word": "mystery",
@@ -144,6 +180,18 @@ export const problems = [
     "hints": ["box", "mail", "deliver", "wrap"]
   },
   {
+    "word": "painting",
+    "hints": ["art", "brush", "canvas", "colors"]
+  },
+  {
+    "word": "parking",
+    "hints": ["car", "spot", "garage", "space"]
+  },
+  {
+    "word": "peacock",
+    "hints": ["bird", "feather", "proud", "tail"]
+  },
+  {
     "word": "passion",
     "hints": ["strong feeling", "enthusiasm", "desire", "love"]
   },
@@ -168,8 +216,24 @@ export const problems = [
     "hints": ["photo", "image", "frame", "snap"]
   },
   {
+    "word": "pirate",
+    "hints": ["ship", "treasure", "sword", "sea"]
+  },
+  {
+    "word": "planets",
+    "hints": ["space", "orbit", "worlds", "solar"]
+  },
+  {
+    "word": "playing",
+    "hints": ["fun", "games", "sport", "active"]
+  },
+  {
     "word": "present",
     "hints": ["boxed", "right now", "current time", "birthday"]
+  },
+  {
+    "word": "pudding",
+    "hints": ["sweet", "dessert", "creamy", "treat"]
   },
   {
     "word": "rainbow",
@@ -198,6 +262,10 @@ export const problems = [
   {
     "word": "thunder",
     "hints": ["storm", "loud", "lightning", "boom"]
+  },
+  {
+    "word": "tickles",
+    "hints": ["laugh", "touch", "giggle", "fun"]
   },
   {
     "word": "tornado",
@@ -239,6 +307,22 @@ export const problems = [
     "word": "windows",
     "hints": ["glass", "view", "frame", "pane"]
   },
+  {
+    "word": "winters",
+    "hints": ["snow", "cold", "season", "ice"]
+  },
+  {
+    "word": "wisdom",
+    "hints": ["sage", "knowledge", "smart", "wise"]
+  },
+  {
+    "word": "workout",
+    "hints": ["exercise", "gym", "fitness", "sweat"]
+  },
+  {
+    "word": "writing",
+    "hints": ["pen", "words", "story", "author"]
+  }
 ];
 
 // Check for duplicate words at load time

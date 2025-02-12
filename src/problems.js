@@ -1,123 +1,79 @@
 export const problems = [
   {
-    "word": "freedom",
-    "hints": ["liberty", "rights", "chains", "escape"]
-  },
-  {
-    "word": "harmony",
-    "hints": ["peace", "balance", "music", "unity"]
-  },
-  {
-    "word": "present",
-    "hints": ["boxed", "right now", "current time", "birthday"]
-  },
-  {
-    "word": "dolphin",
-    "hints": ["mammal", "ocean", "flippers", "smart"]
-  },
-  {
-    "word": "rainbow",
-    "hints": ["colors", "arch", "prism", "storm"]
-  },
-  {
-    "word": "diamond",
-    "hints": ["gem", "ring", "sparkle", "forever"]
-  },
-  {
-    "word": "channel",
-    "hints": ["station", "water path", "direct", "program feed"]
-  },
-  {
-    "word": "thunder",
-    "hints": ["storm", "loud", "lightning", "boom"]
-  },
-  {
-    "word": "whisper",
-    "hints": ["quiet", "secret", "soft", "hush"]
+    "word": "balloon",
+    "hints": ["float", "air", "party", "pop"]
   },
   {
     "word": "blossom",
     "hints": ["flower", "spring", "bloom", "pink"]
   },
   {
-    "word": "penguin",
-    "hints": ["tuxedo", "arctic", "waddle", "iceberg"]
+    "word": "breeze",
+    "hints": ["wind", "gentle", "cool", "fresh"]
   },
   {
-    "word": "crystal",
-    "hints": ["stone", "fortune", "ball", "magic rock"]
+    "word": "captain",
+    "hints": ["leader", "ship", "command", "crew"]
   },
   {
-    "word": "courage",
-    "hints": ["bravery", "face fears", "heroic", "inner strength"]
-  },
-  {
-    "word": "passion",
-    "hints": ["strong feeling", "enthusiasm", "desire", "love"]
-  },
-  {
-    "word": "silence",
-    "hints": ["quietness", "meditation", "peaceful state", "no sound"]
-  },
-  {
-    "word": "mystery",
-    "hints": ["puzzle", "secret", "clues", "unknown"]
-  },
-  {
-    "word": "sunrise",
-    "hints": ["dawn", "morning", "east", "begin"]
-  },
-  {
-    "word": "journey",
-    "hints": ["travel", "path", "quest", "voyage"]
+    "word": "channel",
+    "hints": ["station", "water path", "direct", "program feed"]
   },
   {
     "word": "comfort",
     "hints": ["cozy", "relax", "warm", "peace"]
   },
   {
-    "word": "wisdom",
-    "hints": ["sage", "smart", "knowledge", "elder"]
+    "word": "concert",
+    "hints": ["music", "stage", "crowd", "band"]
   },
   {
-    "word": "sparkle",
-    "hints": ["shine", "glitter", "twinkle", "bright"]
+    "word": "courage",
+    "hints": ["bravery", "face fears", "heroic", "inner strength"]
   },
   {
-    "word": "breeze",
-    "hints": ["wind", "gentle", "cool", "fresh"]
+    "word": "crystal",
+    "hints": ["stone", "fortune", "ball", "magic rock"]
   },
   {
-    "word": "rhythm",
-    "hints": ["beat", "music", "tempo", "dance"]
+    "word": "diamond",
+    "hints": ["gem", "ring", "sparkle", "forever"]
   },
   {
-    "word": "phoenix",
-    "hints": ["fire", "bird", "rebirth", "rise"]
+    "word": "dolphin",
+    "hints": ["mammal", "ocean", "flippers", "smart"]
   },
   {
     "word": "eclipse",
     "hints": ["moon", "shadow", "dark", "sun"]
   },
   {
-    "word": "whistle",
-    "hints": ["tune", "signal", "blow", "sound"]
+    "word": "fantasy",
+    "hints": ["magic", "dream", "unreal", "fairy"]
+  },
+  {
+    "word": "freedom",
+    "hints": ["liberty", "rights", "chains", "escape"]
   },
   {
     "word": "glacier",
     "hints": ["ice", "cold", "arctic", "slow"]
   },
   {
-    "word": "volcano",
-    "hints": ["lava", "erupt", "mountain", "hot"]
+    "word": "harmony",
+    "hints": ["peace", "balance", "music", "unity"]
   },
   {
-    "word": "octopus",
-    "hints": ["tentacles", "ink", "sea", "smart"]
+    "word": "harvest",
+    "hints": ["crop", "farm", "autumn", "reap"]
   },
   {
-    "word": "weather",
-    "hints": ["rain", "forecast", "climate", "sky"]
+    "word": "journey",
+    "hints": ["travel", "path", "quest", "voyage"]
+  },
+  {
+    "word": "kitchen",
+    "hints": ["cook", "food", "stove", "chef"]
   },
   {
     "word": "library",
@@ -128,45 +84,89 @@ export const problems = [
     "hints": ["scary", "creature", "beast", "fear"]
   },
   {
-    "word": "captain",
-    "hints": ["leader", "ship", "command", "crew"]
+    "word": "morning",
+    "hints": ["dawn", "early", "sunrise", "wake"]
   },
   {
-    "word": "fantasy",
-    "hints": ["magic", "dream", "unreal", "fairy"]
+    "word": "mystery",
+    "hints": ["puzzle", "secret", "clues", "unknown"]
   },
   {
-    "word": "concert",
-    "hints": ["music", "stage", "crowd", "band"]
+    "word": "octopus",
+    "hints": ["tentacles", "ink", "sea", "smart"]
   },
   {
-    "word": "balloon",
-    "hints": ["float", "air", "party", "pop"]
+    "word": "passion",
+    "hints": ["strong feeling", "enthusiasm", "desire", "love"]
   },
   {
-    "word": "sandbox",
-    "hints": ["play", "beach", "castle", "toys"]
+    "word": "penguin",
+    "hints": ["tuxedo", "arctic", "waddle", "iceberg"]
+  },
+  {
+    "word": "phoenix",
+    "hints": ["fire", "bird", "rebirth", "rise"]
   },
   {
     "word": "picture",
     "hints": ["photo", "image", "frame", "snap"]
   },
   {
-    "word": "kitchen",
-    "hints": ["cook", "food", "stove", "chef"]
+    "word": "present",
+    "hints": ["boxed", "right now", "current time", "birthday"]
   },
   {
-    "word": "morning",
-    "hints": ["dawn", "early", "sunrise", "wake"]
+    "word": "rainbow",
+    "hints": ["colors", "arch", "prism", "storm"]
+  },
+  {
+    "word": "rhythm",
+    "hints": ["beat", "music", "tempo", "dance"]
+  },
+  {
+    "word": "sandbox",
+    "hints": ["play", "beach", "castle", "toys"]
+  },
+  {
+    "word": "silence",
+    "hints": ["quietness", "meditation", "peaceful state", "no sound"]
+  },
+  {
+    "word": "sparkle",
+    "hints": ["shine", "glitter", "twinkle", "bright"]
+  },
+  {
+    "word": "sunrise",
+    "hints": ["dawn", "morning", "east", "begin"]
+  },
+  {
+    "word": "thunder",
+    "hints": ["storm", "loud", "lightning", "boom"]
+  },
+  {
+    "word": "volcano",
+    "hints": ["lava", "erupt", "mountain", "hot"]
   },
   {
     "word": "warrior",
     "hints": ["fight", "brave", "battle", "hero"]
   },
   {
-    "word": "harvest",
-    "hints": ["crop", "farm", "autumn", "reap"]
+    "word": "weather",
+    "hints": ["rain", "forecast", "climate", "sky"]
   },
+  {
+    "word": "whisper",
+    "hints": ["quiet", "secret", "soft", "hush"]
+  },
+  {
+    "word": "whistle",
+    "hints": ["tune", "signal", "blow", "sound"]
+  },
+  {
+    "word": "wisdom",
+    "hints": ["sage", "smart", "knowledge", "elder"]
+  }
 ];
 
 // Check for duplicate words at load time

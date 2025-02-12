@@ -12,10 +12,6 @@ export const problems = [
     "hints": ["old", "historic", "past", "ruins"]
   },
   {
-    "word": "astroid",
-    "hints": ["space", "rock", "meteor", "star"]
-  },
-  {
     "word": "balance",
     "hints": ["equal", "steady", "scale", "harmony"]
   },

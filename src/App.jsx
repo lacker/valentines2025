@@ -34,12 +34,36 @@ function App() {
     setUsedIndices(prev => new Set([...prev, index]));
   };
 
+  const handleSolutionLetterClick = (indexToRemove) => {
+    // Get the letter that was in this position
+    const letterToRemove = selectedLetters[indexToRemove];
+    
+    // Find the original index in shuffledLetters
+    const originalIndex = shuffledLetters.findIndex((letter, index) => 
+      letter === letterToRemove && usedIndices.has(index)
+    );
+
+    // Remove from selected letters
+    setSelectedLetters(prev => prev.filter((_, index) => index !== indexToRemove));
+    
+    // Remove from used indices
+    setUsedIndices(prev => {
+      const newSet = new Set(prev);
+      newSet.delete(originalIndex);
+      return newSet;
+    });
+  };
+
   return (
     <>
       <h1>Cluegram</h1>
       <div className="solution-bar">
         {selectedLetters.map((letter, index) => (
-          <div key={index} className="solution-letter">
+          <div 
+            key={index} 
+            className="solution-letter"
+            onClick={() => handleSolutionLetterClick(index)}
+          >
             {letter}
           </div>
         ))}

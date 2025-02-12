@@ -5,55 +5,55 @@ export const problems = [
   },
   {
     "word": "harmony",
-    "hints": ["musical", "peaceful state", "working together", "balance"]
+    "hints": ["musical", "peaceful state", "together", "balance"]
   },
   {
     "word": "present",
-    "hints": ["gift box", "right now", "current time", "birthday item"]
+    "hints": ["boxed", "right now", "current time", "birthday"]
   },
   {
     "word": "dolphin",
-    "hints": ["ocean mammal", "playful swimmer", "clicks and squeaks", "flipper"]
+    "hints": ["mammal", "swimmer", "clicks and squeaks", "flipper"]
   },
   {
     "word": "rainbow",
-    "hints": ["after rain", "seven colors", "arch in sky", "pot of gold"]
+    "hints": ["flag", "colors", "arch in sky", "pot of gold"]
   },
   {
     "word": "diamond",
-    "hints": ["precious gem", "engagement ring", "forever stone", "sparkles"]
+    "hints": ["precious gem", "engagement", "stone", "sparkles"]
   },
   {
     "word": "channel",
-    "hints": ["tv station", "water path", "switch stations", "program feed"]
+    "hints": ["station", "water path", "direct", "program feed"]
   },
   {
     "word": "thunder",
-    "hints": ["storm sound", "lightning pal", "loud boom", "sky rumble"]
+    "hints": ["storm sound", "lightning", "boom", "rumble"]
   },
   {
     "word": "whisper",
-    "hints": ["quiet talk", "soft voice", "secret share", "gentle sound"]
+    "hints": ["quiet", "soft", "secret", "sound"]
   },
   {
     "word": "blossom",
-    "hints": ["flower bloom", "spring sight", "cherry tree", "petal open"]
+    "hints": ["flower", "spring", "cherry", "petal"]
   },
   {
     "word": "penguin",
-    "hints": ["tuxedo bird", "arctic waddle", "fish eater", "ice dweller"]
+    "hints": ["tuxedo", "arctic", "waddle", "iceberg"]
   },
   {
     "word": "crystal",
-    "hints": ["clear stone", "fortune tell", "gem shape", "magic rock"]
+    "hints": ["stone", "fortune", "ball", "magic rock"]
   },
   {
     "word": "courage",
-    "hints": ["bravery", "face fears", "heroic quality", "inner strength"]
+    "hints": ["bravery", "face fears", "heroic", "inner strength"]
   },
   {
     "word": "passion",
-    "hints": ["strong feeling", "enthusiasm", "burning desire", "intense love"]
+    "hints": ["strong feeling", "enthusiasm", "desire", "love"]
   },
   {
     "word": "silence",
@@ -61,11 +61,11 @@ export const problems = [
   },
   {
     "word": "mystery",
-    "hints": ["puzzle", "unknown", "detective work", "secret story"]
+    "hints": ["puzzle", "unknown", "detective", "secret story"]
   },
   {
     "word": "sunrise",
-    "hints": ["dawn", "new day", "morning light", "eastern sky"]
+    "hints": ["dawn", "new day", "morning", "eastern sky"]
   },
   {
     "word": "journey",

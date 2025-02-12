@@ -1,10 +1,20 @@
 @import "tailwindcss";
 
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
 #root {
   max-width: 100%;
   margin: 0 auto;
   padding: 1rem;
   text-align: center;
+  min-height: 85vh; /* Reduced from 95vh to avoid scroll bar */
+  height: -webkit-fill-available;
+  @apply flex flex-col justify-center;
+  overflow: hidden;
 }
 
 .card {

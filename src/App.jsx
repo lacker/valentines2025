@@ -75,13 +75,18 @@ function App() {
     });
   };
 
+  // Create array of 4 slots, fill with hints or empty strings
+  const hintSlots = Array(4).fill('').map((_, index) => 
+    visibleHints[index] || ''
+  );
+
   return (
     <>
       <h1>Cluegram</h1>
       <div className="hints-container">
-        {visibleHints.map((hint, index) => (
-          <div key={index} className="hint-item">
-            {hint}
+        {hintSlots.map((hint, index) => (
+          <div key={index} className={`hint-item ${hint ? 'visible' : 'invisible'}`}>
+            {hint || 'placeholder'}
           </div>
         ))}
       </div>

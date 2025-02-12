@@ -28,6 +28,11 @@ function App() {
   const [usedIndices, setUsedIndices] = useState(new Set());
   const [visibleHints, setVisibleHints] = useState([]);
 
+  // Create shuffled hints array on component mount
+  const [shuffledHints] = useState(() => 
+    [...problem.hints].sort(() => Math.random() - 0.5)
+  );
+
   useEffect(() => {
     // Don't set up timer if we've shown all hints
     if (visibleHints.length >= problem.hints.length) return;
@@ -38,15 +43,13 @@ function App() {
           clearInterval(timer);
           return prev;
         }
-        return [...prev, problem.hints[prev.length]];
+        // Use shuffledHints instead of problem.hints
+        return [...prev, shuffledHints[prev.length]];
       });
     }, 5000);
 
-    // Remove the immediate first hint display
-    // The first hint will now show after 5 seconds like the others
-
     return () => clearInterval(timer);
-  }, [visibleHints.length]);
+  }, [visibleHints.length, shuffledHints]);
 
   const handleLetterClick = (letter, index) => {
     if (usedIndices.has(index)) return;

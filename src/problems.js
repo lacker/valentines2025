@@ -4,6 +4,14 @@ export const problems = [
     "hints": ["planes", "travel", "terminal", "flight"]
   },
   {
+    "word": "ancient",
+    "hints": ["old", "historic", "past", "ruins"]
+  },
+  {
+    "word": "astroid",
+    "hints": ["space", "rock", "meteor", "star"]
+  },
+  {
     "word": "balloon",
     "hints": ["float", "air", "party", "pop"]
   },
@@ -14,6 +22,10 @@ export const problems = [
   {
     "word": "captain",
     "hints": ["leader", "ship", "command", "crew"]
+  },
+  {
+    "word": "caravan",
+    "hints": ["travel", "desert", "camp", "wheels"]
   },
   {
     "word": "channel",
@@ -60,6 +72,10 @@ export const problems = [
     "hints": ["magic", "dream", "unreal", "fairy"]
   },
   {
+    "word": "fishing",
+    "hints": ["catch", "lake", "rod", "bait"]
+  },
+  {
     "word": "freedom",
     "hints": ["liberty", "rights", "chains", "escape"]
   },
@@ -92,6 +108,10 @@ export const problems = [
     "hints": ["books", "quiet", "reading", "study"]
   },
   {
+    "word": "machine",
+    "hints": ["engine", "metal", "robot", "work"]
+  },
+  {
     "word": "monster",
     "hints": ["scary", "creature", "beast", "fear"]
   },
@@ -104,12 +124,24 @@ export const problems = [
     "hints": ["puzzle", "secret", "clues", "unknown"]
   },
   {
+    "word": "natural",
+    "hints": ["default", "pure", "organic", "wild"]
+  },
+  {
+    "word": "network",
+    "hints": ["connect", "web", "system", "link"]
+  },
+  {
     "word": "octopus",
     "hints": ["tentacles", "ink", "sea", "smart"]
   },
   {
     "word": "orchard",
     "hints": ["trees", "fruit", "apples", "garden"]
+  },
+  {
+    "word": "package",
+    "hints": ["box", "mail", "deliver", "wrap"]
   },
   {
     "word": "passion",
@@ -122,6 +154,14 @@ export const problems = [
   {
     "word": "phoenix",
     "hints": ["fire", "bird", "rebirth", "rise"]
+  },
+  {
+    "word": "pioneer",
+    "hints": ["first", "explore", "settle", "lead"]
+  },
+  {
+    "word": "platter",
+    "hints": ["plate", "serve", "food", "dish"]
   },
   {
     "word": "picture",
@@ -164,8 +204,16 @@ export const problems = [
     "hints": ["wind", "storm", "funnel", "spin"]
   },
   {
+    "word": "trumpet",
+    "hints": ["brass", "music", "horn", "jazz"]
+  },
+  {
     "word": "vampire",
     "hints": ["blood", "fangs", "night", "bat"]
+  },
+  {
+    "word": "vanilla",
+    "hints": ["sweet", "flavor", "cream", "bean"]
   },
   {
     "word": "volcano",
@@ -186,7 +234,11 @@ export const problems = [
   {
     "word": "whistle",
     "hints": ["tune", "signal", "blow", "sound"]
-  }
+  },
+  {
+    "word": "windows",
+    "hints": ["glass", "view", "frame", "pane"]
+  },
 ];
 
 // Check for duplicate words at load time

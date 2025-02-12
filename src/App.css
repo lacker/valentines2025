@@ -16,8 +16,28 @@
   @apply flex justify-center gap-2 my-4;
 }
 
+.solution-bar {
+  @apply flex justify-center gap-2 my-4 p-4 mx-auto max-w-md
+         border-2 border-gray-300 rounded-lg min-h-[4rem]
+         bg-gray-50;
+}
+
+.solution-letter {
+  @apply w-12 h-12 bg-white border-2 border-blue-500 rounded-lg
+         flex items-center justify-center text-xl font-bold
+         uppercase shadow-md;
+}
+
 .letter-square {
   @apply w-12 h-12 bg-white border-2 border-gray-300 rounded-lg
          flex items-center justify-center text-xl font-bold
-         uppercase shadow-md;
+         uppercase shadow-md cursor-pointer
+         hover:border-blue-500 hover:shadow-lg
+         transition-all duration-200;
+}
+
+.letter-square.disabled {
+  @apply opacity-50 cursor-not-allowed
+         border-gray-200 bg-gray-100
+         hover:border-gray-200 hover:shadow-md;
 }

@@ -4,12 +4,24 @@ export const problems = [
     "hints": ["accomplish", "succeed", "reach", "attain"]
   },
   {
+    "word": "address",
+    "hints": ["location", "home", "place", "street"]
+  },
+  {
+    "word": "advance",
+    "hints": ["forward", "progress", "ahead", "move"]
+  },
+  {
     "word": "airport",
     "hints": ["planes", "travel", "terminal", "flight"]
   },
   {
     "word": "ancient",
     "hints": ["old", "historic", "past", "ruins"]
+  },
+  {
+    "word": "animals",
+    "hints": ["creatures", "pets", "wildlife", "living"]
   },
   {
     "word": "balance",
@@ -36,6 +48,18 @@ export const problems = [
     "hints": ["sleep", "rest", "pillow", "bed"]
   },
   {
+    "word": "believe",
+    "hints": ["trust", "faith", "accept", "true"]
+  },
+  {
+    "word": "between",
+    "hints": ["middle", "among", "center", "space"]
+  },
+  {
+    "word": "bicycle",
+    "hints": ["bike", "wheels", "pedal", "ride"]
+  },
+  {
     "word": "blossom",
     "hints": ["flower", "spring", "bloom", "pink"]
   },
@@ -44,8 +68,20 @@ export const problems = [
     "hints": ["inhale", "oxygen", "lungs", "air"]
   },
   {
+    "word": "brother",
+    "hints": ["sibling", "family", "male", "kin"]
+  },
+  {
+    "word": "builder",
+    "hints": ["construct", "make", "create", "craft"]
+  },
+  {
     "word": "camping",
     "hints": ["tent", "fire", "woods", "outdoor"]
+  },
+  {
+    "word": "candles",
+    "hints": ["wax", "flame", "light", "glow"]
   },
   {
     "word": "captain",
@@ -56,8 +92,24 @@ export const problems = [
     "hints": ["travel", "desert", "camp", "wheels"]
   },
   {
+    "word": "careful",
+    "hints": ["cautious", "safe", "watch", "mind"]
+  },
+  {
     "word": "channel",
     "hints": ["station", "water path", "direct", "program feed"]
+  },
+  {
+    "word": "chapter",
+    "hints": ["book", "section", "part", "story"]
+  },
+  {
+    "word": "chicken",
+    "hints": ["bird", "farm", "eggs", "poultry"]
+  },
+  {
+    "word": "climate",
+    "hints": ["weather", "environment", "conditions", "atmosphere"]
   },
   {
     "word": "comfort",
@@ -88,8 +140,24 @@ export const problems = [
     "hints": ["moves", "rhythm", "music", "steps"]
   },
   {
+    "word": "defense",
+    "hints": ["protect", "guard", "shield", "secure"]
+  },
+  {
+    "word": "deliver",
+    "hints": ["bring", "send", "carry", "transport"]
+  },
+  {
+    "word": "deserve",
+    "hints": ["earn", "merit", "worthy", "right"]
+  },
+  {
     "word": "diamond",
     "hints": ["gem", "ring", "sparkle", "forever"]
+  },
+  {
+    "word": "display",
+    "hints": ["show", "screen", "exhibit", "present"]
   },
   {
     "word": "dolphin",
@@ -108,12 +176,28 @@ export const problems = [
     "hints": ["moon", "shadow", "dark", "sun"]
   },
   {
+    "word": "economy",
+    "hints": ["money", "market", "trade", "finance"]
+  },
+  {
     "word": "emerald",
     "hints": ["green", "gem", "jewel", "stone"]
   },
   {
+    "word": "endless",
+    "hints": ["forever", "infinite", "eternal", "always"]
+  },
+  {
+    "word": "evening",
+    "hints": ["sunset", "dusk", "night", "twilight"]
+  },
+  {
     "word": "explore",
     "hints": ["discover", "search", "venture", "seek"]
+  },
+  {
+    "word": "factory",
+    "hints": ["plant", "industry", "produce", "make"]
   },
   {
     "word": "fantasy",
@@ -140,6 +224,14 @@ export const problems = [
     "hints": ["bloom", "garden", "petals", "scent"]
   },
   {
+    "word": "forever",
+    "hints": ["eternal", "always", "endless", "lasting"]
+  },
+  {
+    "word": "forward",
+    "hints": ["ahead", "onward", "advance", "front"]
+  },
+  {
     "word": "freedom",
     "hints": ["liberty", "rights", "chains", "escape"]
   },
@@ -152,8 +244,20 @@ export const problems = [
     "hints": ["ice", "cold", "arctic", "slow"]
   },
   {
+    "word": "goddess",
+    "hints": ["divine", "female", "deity", "power"]
+  },
+  {
+    "word": "gossips",
+    "hints": ["rumors", "talk", "spread", "news"]
+  },
+  {
     "word": "growing",
     "hints": ["plant", "taller", "expand", "rise"]
+  },
+  {
+    "word": "hammock",
+    "hints": ["swing", "rest", "relax", "hang"]
   },
   {
     "word": "harmony",
@@ -164,12 +268,44 @@ export const problems = [
     "hints": ["crop", "farm", "autumn", "reap"]
   },
   {
+    "word": "healing",
+    "hints": ["cure", "recover", "mend", "health"]
+  },
+  {
+    "word": "heavens",
+    "hints": ["sky", "stars", "above", "space"]
+  },
+  {
+    "word": "history",
+    "hints": ["past", "events", "record", "time"]
+  },
+  {
+    "word": "holiday",
+    "hints": ["vacation", "break", "celebrate", "rest"]
+  },
+  {
     "word": "imagine",
     "hints": ["dream", "create", "think", "vision"]
   },
   {
+    "word": "improve",
+    "hints": ["better", "enhance", "upgrade", "grow"]
+  },
+  {
+    "word": "inspire",
+    "hints": ["motivate", "spark", "encourage", "move"]
+  },
+  {
     "word": "journey",
     "hints": ["travel", "path", "quest", "voyage"]
+  },
+  {
+    "word": "justice",
+    "hints": ["fair", "law", "right", "equal"]
+  },
+  {
+    "word": "keeping",
+    "hints": ["hold", "retain", "store", "save"]
   },
   {
     "word": "kitchen",
@@ -192,8 +328,16 @@ export const problems = [
     "hints": ["engine", "metal", "robot", "work"]
   },
   {
+    "word": "magnets",
+    "hints": ["attract", "pull", "metal", "force"]
+  },
+  {
     "word": "mansion",
     "hints": ["house", "luxury", "estate", "grand"]
+  },
+  {
+    "word": "martial",
+    "hints": ["combat", "fight", "defense", "arts"]
   },
   {
     "word": "meeting",
@@ -206,6 +350,10 @@ export const problems = [
   {
     "word": "miracle",
     "hints": ["wonder", "amazing", "divine", "special"]
+  },
+  {
+    "word": "mission",
+    "hints": ["task", "goal", "quest", "purpose"]
   },
   {
     "word": "monkeys",
@@ -236,8 +384,20 @@ export const problems = [
     "hints": ["default", "pure", "organic", "wild"]
   },
   {
+    "word": "nervous",
+    "hints": ["anxious", "worry", "tense", "uneasy"]
+  },
+  {
     "word": "network",
     "hints": ["connect", "web", "system", "link"]
+  },
+  {
+    "word": "nothing",
+    "hints": ["empty", "void", "zero", "blank"]
+  },
+  {
+    "word": "nursery",
+    "hints": ["babies", "plants", "care", "grow"]
   },
   {
     "word": "octopus",
@@ -252,8 +412,16 @@ export const problems = [
     "hints": ["box", "mail", "deliver", "wrap"]
   },
   {
+    "word": "padding",
+    "hints": ["soft", "cushion", "protect", "fill"]
+  },
+  {
     "word": "parking",
     "hints": ["car", "spot", "garage", "space"]
+  },
+  {
+    "word": "passage",
+    "hints": ["path", "way", "route", "text"]
   },
   {
     "word": "passion",
@@ -272,6 +440,10 @@ export const problems = [
     "hints": ["flawless", "best", "ideal", "pure"]
   },
   {
+    "word": "physics",
+    "hints": ["science", "matter", "energy", "laws"]
+  },
+  {
     "word": "picture",
     "hints": ["photo", "image", "frame", "snap"]
   },
@@ -288,12 +460,20 @@ export const problems = [
     "hints": ["space", "orbit", "worlds", "solar"]
   },
   {
+    "word": "plaster",
+    "hints": ["wall", "cover", "bandage", "cast"]
+  },
+  {
     "word": "platter",
     "hints": ["plate", "serve", "food", "dish"]
   },
   {
     "word": "playing",
     "hints": ["fun", "games", "sport", "active"]
+  },
+  {
+    "word": "popcorn",
+    "hints": ["snack", "movie", "kernel", "butter"]
   },
   {
     "word": "pottery",
@@ -312,6 +492,10 @@ export const problems = [
     "hints": ["secret", "personal", "hidden", "own"]
   },
   {
+    "word": "problem",
+    "hints": ["issue", "puzzle", "solve", "fix"]
+  },
+  {
     "word": "promise",
     "hints": ["vow", "pledge", "swear", "word"]
   },
@@ -328,8 +512,24 @@ export const problems = [
     "hints": ["colors", "arch", "prism", "storm"]
   },
   {
+    "word": "raising",
+    "hints": ["lift", "grow", "increase", "up"]
+  },
+  {
     "word": "reading",
     "hints": ["book", "story", "learn", "words"]
+  },
+  {
+    "word": "reality",
+    "hints": ["real", "truth", "actual", "fact"]
+  },
+  {
+    "word": "release",
+    "hints": ["free", "let go", "launch", "send"]
+  },
+  {
+    "word": "respect",
+    "hints": ["honor", "admire", "regard", "value"]
   },
   {
     "word": "running",
@@ -348,6 +548,14 @@ export const problems = [
     "hints": ["research", "study", "facts", "lab"]
   },
   {
+    "word": "seeking",
+    "hints": ["search", "look", "find", "hunt"]
+  },
+  {
+    "word": "shining",
+    "hints": ["bright", "glow", "sparkle", "light"]
+  },
+  {
     "word": "silence",
     "hints": ["quietness", "meditation", "peaceful state", "no sound"]
   },
@@ -356,8 +564,20 @@ export const problems = [
     "hints": ["voice", "song", "tune", "melody"]
   },
   {
+    "word": "smiling",
+    "hints": ["happy", "grin", "laugh", "joy"]
+  },
+  {
     "word": "sparkle",
     "hints": ["shine", "glitter", "twinkle", "bright"]
+  },
+  {
+    "word": "special",
+    "hints": ["unique", "different", "rare", "particular"]
+  },
+  {
+    "word": "spirits",
+    "hints": ["soul", "ghost", "energy", "life"]
   },
   {
     "word": "student",
@@ -384,8 +604,12 @@ export const problems = [
     "hints": ["school", "learn", "class", "mentor"]
   },
   {
-    "word": "theatre",
+    "word": "theater",
     "hints": ["stage", "play", "drama", "show"]
+  },
+  {
+    "word": "therapy",
+    "hints": ["heal", "help", "treat", "care"]
   },
   {
     "word": "thought",
@@ -400,6 +624,10 @@ export const problems = [
     "hints": ["laugh", "touch", "giggle", "fun"]
   },
   {
+    "word": "tonight",
+    "hints": ["evening", "dark", "now", "soon"]
+  },
+  {
     "word": "tornado",
     "hints": ["wind", "storm", "funnel", "spin"]
   },
@@ -408,8 +636,24 @@ export const problems = [
     "hints": ["cars", "road", "busy", "jam"]
   },
   {
+    "word": "trouble",
+    "hints": ["problem", "worry", "issue", "concern"]
+  },
+  {
     "word": "trumpet",
     "hints": ["brass", "music", "horn", "jazz"]
+  },
+  {
+    "word": "uniform",
+    "hints": ["clothes", "same", "dress", "match"]
+  },
+  {
+    "word": "unknown",
+    "hints": ["mystery", "strange", "hidden", "secret"]
+  },
+  {
+    "word": "upwards",
+    "hints": ["above", "rising", "climb", "higher"]
   },
   {
     "word": "vampire",
@@ -476,8 +720,24 @@ export const problems = [
     "hints": ["pen", "words", "story", "author"]
   },
   {
+    "word": "welcome",
+    "hints": ["greet", "hello", "receive", "enter"]
+  },
+  {
+    "word": "western",
+    "hints": ["cowboy", "sunset", "ranch", "west"]
+  },
+  {
+    "word": "wrapper",
+    "hints": ["cover", "package", "paper", "gift"]
+  },
+  {
     "word": "younger",
     "hints": ["youth", "age", "junior", "fresh"]
+  },
+  {
+    "word": "zealous",
+    "hints": ["eager", "passion", "devoted", "keen"]
   }
 ];
 

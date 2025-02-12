@@ -164,23 +164,27 @@ export const problems = [
     "hints": ["fight", "brave", "battle", "hero"]
   },
   {
-    "word": "penguin",
-    "hints": ["bird", "ice", "waddle", "swim"]
-  },
-  {
     "word": "harvest",
     "hints": ["crop", "farm", "autumn", "reap"]
   },
-  {
-    "word": "dolphin",
-    "hints": ["mammal", "ocean", "flippers", "smart"]
-  },
-  {
-    "word": "rainbow",
-    "hints": ["colors", "arch", "prism", "storm"]
-  },
-  {
-    "word": "diamond",
-    "hints": ["gem", "ring", "sparkle", "forever"]
+];
+
+// Check for duplicate words at load time
+const wordCounts = {};
+const duplicates = [];
+
+problems.forEach(problem => {
+  if (wordCounts[problem.word]) {
+    if (!duplicates.includes(problem.word)) {
+      duplicates.push(problem.word);
+    }
+    wordCounts[problem.word]++;
+  } else {
+    wordCounts[problem.word] = 1;
   }
-]; 
+});
+
+if (duplicates.length > 0) {
+  console.warn('⚠️ Duplicate words found in problems:', duplicates.join(', '));
+  console.warn('Please remove duplicate entries to ensure fair gameplay.');
+} 

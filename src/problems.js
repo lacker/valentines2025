@@ -8,10 +8,6 @@ export const problems = [
     "hints": ["flower", "spring", "bloom", "pink"]
   },
   {
-    "word": "breeze",
-    "hints": ["wind", "gentle", "cool", "fresh"]
-  },
-  {
     "word": "captain",
     "hints": ["leader", "ship", "command", "crew"]
   },
@@ -120,10 +116,6 @@ export const problems = [
     "hints": ["colors", "arch", "prism", "storm"]
   },
   {
-    "word": "rhythm",
-    "hints": ["beat", "music", "tempo", "dance"]
-  },
-  {
     "word": "sandbox",
     "hints": ["play", "beach", "castle", "toys"]
   },
@@ -163,10 +155,6 @@ export const problems = [
     "word": "whistle",
     "hints": ["tune", "signal", "blow", "sound"]
   },
-  {
-    "word": "wisdom",
-    "hints": ["sage", "smart", "knowledge", "elder"]
-  }
 ];
 
 // Check for duplicate words at load time
@@ -187,4 +175,14 @@ problems.forEach(problem => {
 if (duplicates.length > 0) {
   console.warn('⚠️ Duplicate words found in problems:', duplicates.join(', '));
   console.warn('Please remove duplicate entries to ensure fair gameplay.');
+}
+
+// Check for words that aren't 7 letters
+const invalidLengthWords = problems.filter(problem => problem.word.length !== 7);
+if (invalidLengthWords.length > 0) {
+  console.warn('⚠️ Words found that are not 7 letters long:');
+  invalidLengthWords.forEach(problem => {
+    console.warn(`"${problem.word}" is ${problem.word.length} letters long`);
+  });
+  console.warn('Please ensure all words are exactly 7 letters long.');
 } 
